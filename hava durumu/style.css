@@ -1,0 +1,74 @@
+@import url('https://fonts.googlepis.com/css2family=Poppins:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins";
+    background-image: url("https://img.tamindir.com/resize/1200x675/2022/09/476731/hava-durumu-nasil-olculur-2.jpg");
+    background-repeat: no-repeat; /* resim tekrarlanmasın diye*/
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    background-color: lightgray ;
+    border-radius: 5px;
+    opacity: 0.8;
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 5px 12px 20px black;
+}
+
+.baslik{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icerik{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+.title{
+    color: orange;
+}
+#aramaButonu{
+    width: 100%;
+    padding: 10px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+    outline: none;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.sehirIsmi{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.derece{
+   font-size: 65px ;
+   margin-bottom: 10px;
+}
+
+
